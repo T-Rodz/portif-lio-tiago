@@ -1,0 +1,45 @@
+/* Adicione aqui suas regras de estilo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.titulo {
+    color: brown;
+    font-size: 22px;
+}
+
+.subtitulo {
+    color: blueviolet;
+    font-size: 15px;
+}
+
+.foto-perfil {
+    width: 15vh;
+}
+
+.destaques {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.destaque {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.trabalhos {
+    bottom: 0%;
+    text-align: center;
+}
+/* Estilize os botões de filtro, os trabalhos e outras seções conforme sua preferência */
